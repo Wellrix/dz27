@@ -28,4 +28,8 @@ void Friend::show() const
 
 void Friend::edit()
 {
+    Person::edit();
+    cout << "Enter new birth: " << endl;
+    cin >> birth;
+    cout << "===============================================" << endl;
 }
