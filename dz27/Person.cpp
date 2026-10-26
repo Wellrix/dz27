@@ -4,9 +4,9 @@ using namespace std;
 
 Person::Person()
 {
-    surname = "undfined";
-    address = "undfined";
-    phoneNum = "undfined";
+    surname = "undefined";
+    address = "undefined";
+    phoneNum = "undefined";
 }
 
 Person::Person(string surname, string address, string phoneNum)
