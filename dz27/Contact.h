@@ -3,11 +3,10 @@ using namespace std;
 class Contact
 {
 public:
-	Contact();
 	 
-	virtual ~Contact();
-	virtual void show() const;
-	virtual void edit();
+	virtual ~Contact() = default;
+	virtual void show() const = 0 ;
+	virtual void edit() = 0;
 
 };
 
