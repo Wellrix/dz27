@@ -22,6 +22,8 @@ void Friend::setBirth()
 
 void Friend::show() const
 {
+    Person::show();
+    cout << "Birth: " << birth << endl;
 }
 
 void Friend::edit()
