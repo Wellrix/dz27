@@ -3,7 +3,7 @@
 class Friend :
     public Person
 {
-    string birht;
+    string birth;
 public:
     Friend();
     Friend(string surname,string address,string phoneNum,string birth);
