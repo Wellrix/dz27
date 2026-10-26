@@ -2,14 +2,17 @@
 
 PhoneBook::~PhoneBook()
 {
-	for (int i = 0; int i < contacs.size; int i++)
+	for (int i = 0; i < contacs.size(); i++)
 	{
 		delete contacs[i];
 	}
+
 }
 
 void PhoneBook::addContact(Contact* contact)
 {
+
+
 }
 
 void PhoneBook::showAll() const
