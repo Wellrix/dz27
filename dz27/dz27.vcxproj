@@ -144,12 +144,14 @@
     <ClCompile Include="dz27.cpp" />
     <ClCompile Include="Friend.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PhoneBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Colleague.h" />
     <ClInclude Include="Contact.h" />
     <ClInclude Include="Friend.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="PhoneBook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
